@@ -15,7 +15,7 @@ class Controller {
     }
     @GetMapping("/user")
     fun user(): ResponseEntity<Any>{
-        val user = MemberDto("dahyeon","dahyeon@gmail.com")
+        val user = MemberDto("dahyeon","dahyeon@gmail.com","010-0000-0000")
         return ResponseEntity.ok(user)
     }
 }

@@ -39,5 +39,5 @@ out/
 ### Kotlin ###
 .kotlin
 .DS_Store
-application.yml
+.application.yml
 /data/
